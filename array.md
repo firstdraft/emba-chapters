@@ -125,7 +125,7 @@ Some further things for you to experiment with:
 
 ### String#split
 
-Before we proceed with more `Array` methods, I want to go back for a minute and talk about [the `.split` method from the `String` class](https://chapters.firstdraft.com/chapters/757#split){:target="_blank"}. This method, when called on a `String`, will return an `Array` of substrings:
+Before we proceed with more `Array` methods, I want to go back for a minute and talk about [the `.split` method from the `String` class](https://chapters.firstdraft.com/chapters/25#split){:target="_blank"}. This method, when called on a `String`, will return an `Array` of substrings:
 
 ```ruby
 "alice bob carol".split # => ["alice", "bob", "carol"]

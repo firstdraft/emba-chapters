@@ -32,7 +32,7 @@ Most of the time, we'll stick with `p`, since it provides more details while deb
 
 ## gets.chomp
 
-We almost never want to keep the `\n` that results from the <kbd>return</kbd> keypress that submits the user's input. Fortunately, [the handy `.chomp` method](https://chapters.firstdraft.com/chapters/757#chomp){:target="_blank"} does exactly what we need — if there's a `\n` at the end of a string, it will remove it; if there isn't, it does nothing. So, in practice, when we call `gets` we almost always tack a `.chomp` on to it immediately. Try modifying the program to:
+We almost never want to keep the `\n` that results from the <kbd>return</kbd> keypress that submits the user's input. Fortunately, [the handy `.chomp` method](https://chapters.firstdraft.com/chapters/25#chomp){:target="_blank"} does exactly what we need — if there's a `\n` at the end of a string, it will remove it; if there isn't, it does nothing. So, in practice, when we call `gets` we almost always tack a `.chomp` on to it immediately. Try modifying the program to:
 
 ```ruby
 their_name = gets.chomp

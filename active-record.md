@@ -1,6 +1,6 @@
 # ActiveRecord
 
-`ActiveRecord` comprises a set of classes within Ruby on Rails that help us interact with our database tables, and is one of the most powerful reasons to choose Rails. For example, if we define a class, e.g. `Contact`, and [inherit](https://chapters.firstdraft.com/chapters/769#inheritance){:target="_blank"} from `ApplicationRecord`:
+`ActiveRecord` comprises a set of classes within Ruby on Rails that help us interact with our database tables, and is one of the most powerful reasons to choose Rails. For example, if we define a class, e.g. `Contact`, and [inherit](https://chapters.firstdraft.com/chapters/19#inheritance){:target="_blank"} from `ApplicationRecord`:
 
 ```ruby
 class Contact < ApplicationRecord
@@ -106,7 +106,7 @@ If we want to store the information permanently, we need to save it to a file on
 
 **Databases** are programs that have been optimized since the 1970s to be super-efficient at storing and retrieving information on disk. In particular, **relational** databases have been dominant since the 1980s, and use a language called Structured Query Language (SQL) to store and retrieve records from two-dimensional tables. Relational databases power the vast majority of software in use today.
 
-Fortunately for us, we don't need to learn yet another language to use them. All we have to do is [inherit](https://chapters.firstdraft.com/chapters/769#inheritance){:target="_blank"} from `ApplicationRecord` and our Ruby classes are empowered with methods, like `.save` and `.where`, that will _write all of the SQL for us_. We just have to write our usual `noun.verb`. Awesome!
+Fortunately for us, we don't need to learn yet another language to use them. All we have to do is [inherit](https://chapters.firstdraft.com/chapters/19#inheritance){:target="_blank"} from `ApplicationRecord` and our Ruby classes are empowered with methods, like `.save` and `.where`, that will _write all of the SQL for us_. We just have to write our usual `noun.verb`. Awesome!
 
 ## Creating the table
 
@@ -116,7 +116,7 @@ However, we do first need to actually create the database table, name it, and sp
 
 Database migrations are responsible for evolving the structure of the database, one step at a time. Over the lifecycle of an application, we will make many changes to the database — adding tables here, renaming columns there — as we learn about our users and the problem domain.
 
-For each evolution of the database, we create a little Ruby class that will make the change, and make any modifications to the data already existing within the table (if necessary). This Ruby class will [inherit](https://chapters.firstdraft.com/chapters/769#inheritance){:target="_blank"} from a base Rails class known as `ActiveRecord::Migration`; which will give us a bunch of methods for free[^pattern] that make it very easy to create tables, add columns, etc.
+For each evolution of the database, we create a little Ruby class that will make the change, and make any modifications to the data already existing within the table (if necessary). This Ruby class will [inherit](https://chapters.firstdraft.com/chapters/19#inheritance){:target="_blank"} from a base Rails class known as `ActiveRecord::Migration`; which will give us a bunch of methods for free[^pattern] that make it very easy to create tables, add columns, etc.
 
 [^pattern]: You might be detecting a pattern. A lot of what we get out of Rails is powerful base classes that we inherit from when we make our own classes.
 
@@ -394,7 +394,7 @@ A crucial thing to remember: when you are talking to the **whole table**, you ar
 
 Like any Ruby class[^literal_shorthand] we instantiate a new, blank object with the `.new` method:
 
-[^literal_shorthand]: Remember Array, Hash, or even String, before we got to their [literal](https://chapters.firstdraft.com/chapters/758#array-literals) [shorthand](https://chapters.firstdraft.com/chapters/767#hash-literals) [syntaxes](https://chapters.firstdraft.com/chapters/757#string-literals)? We always started with `.new`, and then built up from scratch.
+[^literal_shorthand]: Remember Array, Hash, or even String, before we got to their [literal](https://chapters.firstdraft.com/chapters/5#array-literals) [shorthand](https://chapters.firstdraft.com/chapters/14#hash-literals) [syntaxes](https://chapters.firstdraft.com/chapters/25#string-literals)? We always started with `.new`, and then built up from scratch.
 
 ```ruby
 c = Contact.new

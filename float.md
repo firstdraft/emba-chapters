@@ -11,7 +11,7 @@ Ruby calls decimal numbers `Float`s. To create a `Float` rather than an `Integer
 
 ### + - * / ** (math)
 
-The math methods work mostly like you'd expect, and similarly to [the ones for integers](https://chapters.firstdraft.com/chapters/760#-------math){:target="_blank"}.
+The math methods work mostly like you'd expect, and similarly to [the ones for integers](https://chapters.firstdraft.com/chapters/16#-------math){:target="_blank"}.
 
 The main difference to keep in mind is with `/`. Division with floats works the way that we're used to — it returns fractional results, as a `Float`:
 

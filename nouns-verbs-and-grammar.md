@@ -375,4 +375,4 @@ storage_box = noun.verb(input1, input2)
 
 It's not _that_ much worse than the calculator language, is it? Of course, there's a bit more syntax (like how to define our own nouns and verbs) that we need to learn, but for the most part, `object.method` is the bulk of what we do.
 
-Now we need to spend some time expanding our _vocabulary_ — what are the most commonly used data types in Ruby, and what are some of their methods? [That's coming up next.](https://chapters.firstdraft.com/chapters/755)
+Now we need to spend some time expanding our _vocabulary_ — what are the most commonly used data types in Ruby, and what are some of their methods? [That's coming up next.](https://chapters.firstdraft.com/chapters/21)
