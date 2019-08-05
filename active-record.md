@@ -72,7 +72,7 @@ rails generate draft:model company name:string industry:string structure:string 
 rails db:migrate
 ```
 
-Voilá — now we have two tables, and are ready to CRUD rows in them. If you want to, you can now skip ahead to the [Time to CRUD](https://chapters.firstdraft.com/chapters/770#time-to-crud) section to learn how to insert rows into our new tables.
+Voilá — now we have two tables, and are ready to CRUD rows in them. If you want to, you can now skip ahead to the [Time to CRUD](https://chapters.firstdraft.com/chapters/2#time-to-crud) section to learn how to insert rows into our new tables.
 
 But, for the curious, read on for a step-by-step explanation of what just happened:
 

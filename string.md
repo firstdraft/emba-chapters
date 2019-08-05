@@ -227,9 +227,13 @@ will match and remove everything _except_ alphanumerics and whitespace.
 
 ### to_i
 
-Sometimes you have a string that contains a number, usually input from a user, and want to do math on it. `to_i` will attempt to convert a `String` object into an `Integer` object.
+Sometimes you have a string that contains a number, usually input from a user, and want to do math on it. `to_i` will convert a `String` into an `Integer`.
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/@raghubetina/toi?lite=true"></iframe>
+
+### to_f
+
+Similarly to `to_i`, `to_f` will convert a `String` into a `Float` (decimal).
 
 ### strip
 

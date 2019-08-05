@@ -37,7 +37,7 @@ rails generate draft:resource photo image:string caption:text owner_id:integer
 - Separate column names and datatypes with colons (NO SPACES).
 - Separate name:datatype pairs with spaces (NO COMMAS).
 
-In other words, the format of the command is exactly the same as when you were [generating only a model and table](https://chapters.firstdraft.com/chapters/770#the-draftmodel-generator-does-everything), but `draft:model` is replaced with `draft:resource`.
+In other words, the format of the command is exactly the same as when you were [generating only a model and table](https://chapters.firstdraft.com/chapters/2#the-draftmodel-generator-does-everything), but `draft:model` is replaced with `draft:resource`.
 
 > Note: `rails g` is short for `rails generate`, like  `c` is for `console` and `s` is for `server`.
 
@@ -116,6 +116,6 @@ It will warn you that it is going to overwrite your existing `app/views/layouts/
 
 That's it! You now have a solid starting point to work from.
 
-If you decide, however, to [add a new column](https://chapters.firstdraft.com/chapters/770#adding-or-removing-columns-from-your-table), then you'll have to go in and edit all of the relevant files (forms, processing actions) by hand.
+If you decide, however, to [add a new column](https://chapters.firstdraft.com/chapters/2#adding-or-removing-columns-from-your-table), then you'll have to go in and edit all of the relevant files (forms, processing actions) by hand.
 
 There's no magic to this generator; all it did was automate the tedium of building The Golden Seven boilerplate by hand. From here on out, it's up to you to add RCAVs and make the interface match your specifications.

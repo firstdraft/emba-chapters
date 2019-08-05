@@ -198,7 +198,7 @@ However, one situation in which whitespace _does_ matter has to do with the **pa
 "Raghu@Bet@ina".gsub ("@", "") # bad!
 ```
 
-Can you spot the difference? **Don't put a space between the method and the opening parenthesis.**
+Can you spot the difference? Don't put a space **between the method and the opening parenthesis.**
 
 It's a very easy mistake to make, so I just wanted to warn you early on so you that can begin developing good muscle memory. Try the bad version in your sandbox and see what the error message looks like:
 
@@ -206,7 +206,7 @@ It's a very easy mistake to make, so I just wanted to warn you early on so you t
 
 ### Seriously: please read the error message
 
-Programming boils down to:
+And read the _whole_ error message, not just the first half. Programming boils down to:
 
  1. Forming a plan of what you want to do (e.g. "I want to remove any '@'s in this input.")
  1. Typing some code to try and do it.
@@ -223,7 +223,7 @@ Your skill level as a programmer is essentially **the number of error messages t
 Here's a debate that will rage until the end of time: what do you call this symbol?
 
 ```
-                       #
+                 #
 ```
 
 Is it a number sign? Is it a pound sign? Is it a hashtag? Is it a waffle?
@@ -238,11 +238,11 @@ Another nice trick is: when experimenting with some code and it's not working, j
 
 Now that you've seen arguments, you know all there is to know about crafting _expressions_ in Ruby. No kidding: `object.method(arguments)` is the *vast* majority of what we'll be doing. That's it.
 
-However, so far we haven't been doing much with the **return value** of each expression. We've just been reading it off the screen, and then dropping it on the ground. For example, try the following:
+However, so far we haven't been doing much with the **return value** of each expression. We've just been reading it off the screen, and then dropping it on the ground. For example, examine the following, and before you run it, guess what it would produce; then click "run ▶":
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/@raghubetina/variables-drop-on-the-ground?lite=true"></iframe>
 
-We're not really able to make any forward progress when we only perform one operation at a time. Programs get interesting only when we start to take the return value of one expression and feed it into the _next_ method. That's how we craft our own novel, useful applications from the basic building blocks of Ruby.
+As you can see, we're not really able to make any forward progress when we only perform one operation at a time. Programs get interesting only when we start to take the return value of one expression and feed it into the _next_ expression. That's how we craft our own novel, useful applications from the basic building blocks of Ruby.
 
 So: let's start to store our return values for future reference, instead of dropping them on the ground. We do this using **variables**, or as I like to think of them, _boxes_. Let's get our feet wet:
 

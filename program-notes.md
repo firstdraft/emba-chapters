@@ -37,7 +37,7 @@ However, there's another very important consideration: which language has the la
 
 For example, Python and Ruby are very similar languages in terms of their technical features and performance profile. However, by some historical accident, Python seems to have gathered more of the scientific/data analysis/machine learning community around it, so more open-source libraries in those areas have been developed and shared in Python than in Ruby; and so now Python is the go-to language for those tasks.
 
-On the other hand, for agile development of database-backed applications, Ruby has a huge and thriving community. In particular, there is an open-source library for building applications called Ruby on Rails ("Rails", for short) that makes small teams or even solo developers incredibly productive. The existence of Rails alone makes the Ruby language a good choice[^rails_relevant] for both startups and beginners.
+On the other hand, for agile development of database-backed applications, Ruby has a huge and thriving community. In particular, there is a gem for building applications called Ruby on Rails ("Rails", for short) that makes small teams, or even solo developers, incredibly productive. The existence of Rails alone makes the Ruby language a good choice[^rails_relevant] for both startups and beginners.
 
 [^rails_relevant]:
     Here's a longer blog post on why Ruby on Rails is still a good choice in 2019:
@@ -46,7 +46,7 @@ On the other hand, for agile development of database-backed applications, Ruby h
 
 The philosophy of Rails is "convention over configuration" — it makes a lot of decisions on your behalf, and if you go with the flow, then things "just work". (If you want to fiddle with settings, then of course you can, to your heart's content; but you don't _have to_ spend hours or days doing so before anything will even show up, like you do in most other frameworks.) You can focus on building the unique features of _your_ application, not on plumbing that's common to all applications.
 
-There are a lot of other powerful, easy-to-use Ruby libraries that have philosophies similar to Rails. Ruby seems to have gathered a community of developers around it who are more about creating value for our users, and less about [bike shedding](https://en.wiktionary.org/wiki/bikeshedding){:target="_blank"} over technical details[^choose_boring].
+There are a lot of other powerful, easy-to-use Ruby libraries that have philosophies similar to Rails. Ruby seems to have gathered a community of developers around it who are more about creating value for our users, and less about [bike shedding](https://en.wiktionary.org/wiki/bikeshedding){:target="_blank"} over what to name folders[^choose_boring].
 
 [^choose_boring]:
     I, personally, agree with this author who prefers boring technologies over cutting-edge ones:
@@ -61,7 +61,7 @@ The programming world at large can be pretty competitive and harsh, but I've fou
 
 ### Heroku and other integrations
 
-Another way in which the ergonomics of Ruby excels is the amount of tooling that exists around it. For example, [Heroku](https://heroku.com) was the first "platform as a service", a layer on top of Amazon Web Services that makes it incredibly easy to deploy applications to an industrial-grade infrastructure. Something that would have itself required a whole separate course to learn how to do, we can now do with just one click; and we can focus instead on building features for our users.
+Another way in which the ergonomics of Ruby excels is the amount of tooling that exists around it. For example, [Heroku](https://heroku.com) was the first "platform as a service", a layer on top of Amazon Web Services that makes it astonishingly easy to deploy applications to an industrial-grade infrastructure. Something that would have itself required a whole separate course to learn how to do, we can now do with just one click; and we can focus instead on building features for our users.
 
 Rails was the first platform that Heroku supported, and Rails developers are still Heroku's primary users. There are many other services, everything from performance monitoring to error reporting to email delivery to A/B testing to analytics, that offer tight integrations with Ruby and/or Rails and make using them hyper-productive for small teams, solo developers, and therefore also for us beginners.
 
@@ -72,8 +72,6 @@ To go from _complete beginner_ to _deploying a fully functional application_ is 
 ### Cloud editors
 
 As you've already seen, we're going to start by writing Ruby right here in your browser. This is the lowest-friction way to get started, and will allow us to focus on learning Ruby without having to waste mental energy on installing tools.
-
-Later, if you decide to continue with software development for the long-term, you may want to install Ruby on your own computer and switch to a more powerful code editor. We'll provide guidance on how to do that.
 
 ### Make the invisible visible
 
@@ -86,6 +84,8 @@ Let's talk a little bit more about how the REPLs work. So far, we've been clicki
 It turns out there's a special method in Ruby called `Kernel.p` (`p` is short for "print inspect") that will display its argument in the terminal. Try running the following:
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/@raghubetina/first-real-output?lite=true"></iframe>
+
+You usually don't want to print every line, but you certainly should be printing at least one line; otherwise your program isn't doing much good. In the real world (outside of these REPLs), the green line at the end will not show up when we run our programs; only things that we explicitly print will.
 
 Printing values to the terminal is something we're going to want to do _a lot_, and so Ruby makes it easy for us; rather than having to type `Kernel.p`, we can just type the shorthand of `p`. Change `Kernel.p` to `p` above and give it a try.
 
@@ -101,7 +101,7 @@ p "HELLO WORLD!"
 
 And when you are roaming the internet, you will see this style often, especially with `p`.
 
-My advice to you is: you can drop the parentheses when you are `p`rinting, but other than that, always include them. They help to keep things clear, and they prevent order-of-operations errors.
+My advice to you is: you can drop the parentheses around arguments when you are  using the `p` method; but other than that, include them. They help to keep things clear, and they prevent order-of-operations issues.
 
 ### Use p a lot
 
@@ -127,30 +127,6 @@ Once you completed the challenge, got the tests to pass, and submitted your solu
 ![](/assets/solution-submitted.png)
 
 After you've submitted a solution, you'll be able to click "See Model Solution" to see one that I've written. Remember that there's no single "correct" solution — if yours worked, then it's just as good as mine!
-
-### Roadmap
-
-Before we continue learning Ruby, I just want to give you sneak peek of where we're heading. Most of these words won't make sense right now, but they will soon!
-
-#### Part 1: Database
-
- - Ruby basics
- - Conditionals
- - Loops
- - Arrays
- - Hashes
- - Classes
- - Storing data permanently with models
- - Querying, querying, querying
-
-#### Part 2: Interface
-
- - Route, Controller, Action, View
- - Parameters
- - HTML
- - The Golden Seven
- - Partials
- - Sign-in/sign-out
 
 ## Onwards
 

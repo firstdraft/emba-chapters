@@ -190,7 +190,7 @@ should show only Breakfast dishes.
 
 Be careful not to break plain old `/dishes` (without a query string on the end)! Requests both with and without a query string should be handled gracefully.
 
-There [are](https://chapters.firstdraft.com/chapters/767#use-keys-to-explore) [many](https://chapters.firstdraft.com/chapters/758#count) [different](https://chapters.firstdraft.com/chapters/758#include) [tools](https://chapters.firstdraft.com/chapters/767#fetch-fallback) [that](https://chapters.firstdraft.com/chapters/767#at-shorthand-) [you](https://chapters.firstdraft.com/chapters/770#chaining-wheres) [can](https://chapters.firstdraft.com/chapters/754#updating-variables) [use](https://chapters.firstdraft.com/chapters/763) to achieve this.
+There [are](https://chapters.firstdraft.com/chapters/767#use-keys-to-explore) [many](https://chapters.firstdraft.com/chapters/758#count) [different](https://chapters.firstdraft.com/chapters/758#include) [tools](https://chapters.firstdraft.com/chapters/767#fetch-fallback) [that](https://chapters.firstdraft.com/chapters/767#at-shorthand-) [you](https://chapters.firstdraft.com/chapters/2#chaining-wheres) [can](https://chapters.firstdraft.com/chapters/754#updating-variables) [use](https://chapters.firstdraft.com/chapters/763) to achieve this.
 
 ### /venues?neighborhood_id=[ANY EXISTING NEIGHBORHOOD ID]
 
@@ -243,4 +243,4 @@ For me, it's worth the up-front investment to write these instance methods and h
 
 ### Note: .distinct
 
-Remember that you can [use `.distinct` on a collection](https://chapters.firstdraft.com/chapters/770#distinct) to remove duplicate records.
+Remember that you can [use `.distinct` on a collection](https://chapters.firstdraft.com/chapters/2#distinct) to remove duplicate records.
