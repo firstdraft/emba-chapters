@@ -22,3 +22,5 @@
  1. [Draft Generators](https://emba.firstdraft.com/chapters/773)
  1. [The One Reference](https://emba.firstdraft.com/chapters/26) **(DRAFT)**
  1. [Getting automated feedback with rails grade](https://emba.firstdraft.com/chapters/22)
+ 1. [Planning your idea](https://emba.firstdraft.com/chapters/29)
+ 1. [Diagramming your idea](https://emba.firstdraft.com/chapters/28)
