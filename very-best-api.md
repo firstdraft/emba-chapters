@@ -218,7 +218,7 @@ should show only the bookmarks that belong to the user with ID 4 that are for Bi
 
 ## Query helper methods that you might find helpful
 
-I found it helpful to define the following [association query shortcuts](https://chapters.firstdraft.com/chapters/778) for myself in my models before I started to build out my API; but you are not required to.
+I found it helpful to define the following [association query shortcuts](https://chapters.firstdraft.com/chapters/3) for myself in my models before I started to build out my API; but you are not required to.
 
  - `User#bookmarks`
  - `User#bookmarked_dishes`

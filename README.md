@@ -15,7 +15,7 @@
  1. [Our own classes](https://chapters.firstdraft.com/chapters/769)
  1. [Ruby Practice](https://chapters.firstdraft.com/chapters/776)
  1. [ActiveRecord](https://chapters.firstdraft.com/chapters/2)
- 1. [Adding Association Query Shortcuts](https://chapters.firstdraft.com/chapters/778)
+ 1. [Adding Association Query Shortcuts](https://chapters.firstdraft.com/chapters/3)
  1. [Adding Routes](https://chapters.firstdraft.com/chapters/779)
  1. [Photogram API](https://chapters.firstdraft.com/chapters/780)
  1. [HTML Reference](https://chapters.firstdraft.com/chapters/771)
