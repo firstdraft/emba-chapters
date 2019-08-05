@@ -11,7 +11,7 @@ display the element to the user with some formatting around it.
 
 ## Iterating over arrays with Integer's times method
 
-Try transforming the words in an Array using what you've learned so far about [loops](https://chapters.firstdraft.com/chapters/17){:target="_blank"}:
+Try transforming the words in an Array using what you've learned so far about [loops](https://emba.firstdraft.com/chapters/17){:target="_blank"}:
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/3097392/981114309d419ae15703d1917e2b7782"></iframe>
 

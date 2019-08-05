@@ -109,7 +109,7 @@ Movie.where({ :title => "The Shawshank Redemption" })
 
 ## at shorthand, []
 
-Much like [`Array`'s shorthand for `.at`](https://chapters.firstdraft.com/chapters/5#at-shorthand-){:target="_blank"}, `Hash` also a shorthand for retrieving elements with `.fetch`: `.[]` (and the associated syntactic sugar). So we _could_ write:
+Much like [`Array`'s shorthand for `.at`](https://emba.firstdraft.com/chapters/5#at-shorthand-){:target="_blank"}, `Hash` also a shorthand for retrieving elements with `.fetch`: `.[]` (and the associated syntactic sugar). So we _could_ write:
 
 ```ruby
 person1 = { :first_name => "Raghu", :last_name => "Betina", :role => "Instructor" }

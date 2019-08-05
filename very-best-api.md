@@ -190,7 +190,7 @@ should show only Breakfast dishes.
 
 Be careful not to break plain old `/dishes` (without a query string on the end)! Requests both with and without a query string should be handled gracefully.
 
-There [are](https://chapters.firstdraft.com/chapters/14#use-keys-to-explore) [many](https://chapters.firstdraft.com/chapters/5#count) [different](https://chapters.firstdraft.com/chapters/5#include) [tools](https://chapters.firstdraft.com/chapters/14#fetch-fallback) [that](https://chapters.firstdraft.com/chapters/14#at-shorthand-) [you](https://chapters.firstdraft.com/chapters/2#chaining-wheres) [can](https://chapters.firstdraft.com/chapters/18#updating-variables) [use](https://chapters.firstdraft.com/chapters/6) to achieve this.
+There [are](https://emba.firstdraft.com/chapters/14#use-keys-to-explore) [many](https://emba.firstdraft.com/chapters/5#count) [different](https://emba.firstdraft.com/chapters/5#include) [tools](https://emba.firstdraft.com/chapters/14#fetch-fallback) [that](https://emba.firstdraft.com/chapters/14#at-shorthand-) [you](https://emba.firstdraft.com/chapters/2#chaining-wheres) [can](https://emba.firstdraft.com/chapters/18#updating-variables) [use](https://emba.firstdraft.com/chapters/6) to achieve this.
 
 ### /venues?neighborhood_id=[ANY EXISTING NEIGHBORHOOD ID]
 
@@ -218,7 +218,7 @@ should show only the bookmarks that belong to the user with ID 4 that are for Bi
 
 ## Query helper methods that you might find helpful
 
-I found it helpful to define the following [association query shortcuts](https://chapters.firstdraft.com/chapters/3) for myself in my models before I started to build out my API; but you are not required to.
+I found it helpful to define the following [association query shortcuts](https://emba.firstdraft.com/chapters/3) for myself in my models before I started to build out my API; but you are not required to.
 
  - `User#bookmarks`
  - `User#bookmarked_dishes`
@@ -243,4 +243,4 @@ For me, it's worth the up-front investment to write these instance methods and h
 
 ### Note: .distinct
 
-Remember that you can [use `.distinct` on a collection](https://chapters.firstdraft.com/chapters/2#distinct) to remove duplicate records.
+Remember that you can [use `.distinct` on a collection](https://emba.firstdraft.com/chapters/2#distinct) to remove duplicate records.

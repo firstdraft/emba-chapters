@@ -76,7 +76,7 @@ We often will want to combine our `Integer`s with `String`s when crafting output
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/@raghubetina/no-implicit-conversion?lite=true"></iframe>
 
-Uh oh! [RTEM!](https://chapters.firstdraft.com/chapters/18#seriously-please-read-the-error-message){:target="_blank"}
+Uh oh! [RTEM!](https://emba.firstdraft.com/chapters/18#seriously-please-read-the-error-message){:target="_blank"}
 
 It turns out that `String`'s `+` method can only add two strings together, not a string and an object of some other class. So, a lot of times we'll need to convert an `Integer` into a `String` prior to output. Fortunately `Integer` has a handy method, `to_s` (or "to string"), that does just that:
 
@@ -88,4 +88,4 @@ Similarly, there's a `to_f` (or "to float") method to convert an `Integer` to a 
 
 ## Conclusion
 
-That's it for `Integer`. Next up, [it's close cousin: `Float`](https://chapters.firstdraft.com/chapters/12).
+That's it for `Integer`. Next up, [it's close cousin: `Float`](https://emba.firstdraft.com/chapters/12).

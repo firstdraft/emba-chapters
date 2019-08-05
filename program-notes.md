@@ -93,7 +93,7 @@ Printing values to the terminal is something we're going to want to do _a lot_, 
 
 To make it even easier to _make the invisible visible_, here's another shortcut:
 
-When we discussed [Arguments](https://chapters.firstdraft.com/chapters/18#arguments-are-inputs){:target="_blank"}, we said that they always come within parentheses. That's not quite true. Ruby allows you to, optionally, leave out the parentheses; so the following will also work:
+When we discussed [Arguments](https://emba.firstdraft.com/chapters/18#arguments-are-inputs){:target="_blank"}, we said that they always come within parentheses. That's not quite true. Ruby allows you to, optionally, leave out the parentheses; so the following will also work:
 
 ```ruby
 p "HELLO WORLD!"
@@ -130,4 +130,4 @@ After you've submitted a solution, you'll be able to click "See Model Solution" 
 
 ## Onwards
 
-Okay! With that housekeeping out of the way, let's move on and learn more about the Fundamental Classes of Ruby, starting with [our friend `String`](https://chapters.firstdraft.com/chapters/25).
+Okay! With that housekeeping out of the way, let's move on and learn more about the Fundamental Classes of Ruby, starting with [our friend `String`](https://emba.firstdraft.com/chapters/25).
