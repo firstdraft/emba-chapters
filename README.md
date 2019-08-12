@@ -17,6 +17,7 @@
  1. [ActiveRecord](https://emba.firstdraft.com/chapters/2)
  1. [Adding Association Query Shortcuts](https://emba.firstdraft.com/chapters/3)
  1. [Adding Routes](https://emba.firstdraft.com/chapters/4)
+ 1. [Flexible Path Segments](https://emba.firstdraft.com/chapters/30)
  1. [Photogram API](https://emba.firstdraft.com/chapters/20)
  1. [HTML Reference](https://emba.firstdraft.com/chapters/15)
  1. [Draft Generators](https://emba.firstdraft.com/chapters/773)
