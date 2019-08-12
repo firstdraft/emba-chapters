@@ -25,3 +25,5 @@
  1. [Getting automated feedback with rails grade](https://emba.firstdraft.com/chapters/22)
  1. [Planning your idea](https://emba.firstdraft.com/chapters/29)
  1. [Diagramming your idea](https://emba.firstdraft.com/chapters/28)
+ 1. [LTAB Domain Modeling](https://emba.firstdraft.com/chapters/30)
+ 1. [TeacherPlan Domain Modeling](https://emba.firstdraft.com/chapters/31)
