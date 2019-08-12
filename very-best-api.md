@@ -4,6 +4,12 @@
 
 You can see [a functional version of the application you should build here](https://very-best-api.herokuapp.com/users).
 
+## Handy references
+
+For writing your queries, the walkthrough video for MSM Queries should be useful.
+
+For adding an API around your database, the [Adding Routes](https://emba.firstdraft.com/chapters/4) and [Flexible Path Segments](https://emba.firstdraft.com/chapters/30) chapters should be useful.
+
 ## The domain model
 
 Here's an [Entity Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams#discovery__top){:target="_blank"} of the database, for reference. Also remember to refer to the comments at the top of the model files:
