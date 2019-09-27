@@ -39,7 +39,7 @@ Imagine we've been hired to build an app for a youth poetry slam festival. Over 
     - Judges will assign a numerical score between 0.0 and 10.0.
     - The lowest and highest scores will be dropped, and the other three scores will be summed to find the total score for the poem.
  - There are potential **deductions** that can be made by a staff member to a poem's score:
-    - **Time**: If the poem goes over 3 minutes and 10 seconds, 0.5 points is deducted for every additional 10 seconds. For example,
+    - **Time**: If the poem goes over 3 minutes and 10 seconds, 0.5 points are deducted for every additional 10 seconds. For example,
         - 3:10 and under: no penalty
         - 3:11—3:20: `-0.5`
         - 3:21—3:30: `-1.0`
@@ -51,10 +51,10 @@ Imagine we've been hired to build an app for a youth poetry slam festival. Over 
         - Plagiarism: `-30.0` (final scores can never go under `0.0`, however).
  - Ultimately, each team's final score from each of the five rounds is added up to get the team's overall score.
  - The team's **bout rank** is determined by their overall score; if two teams have the same overall score, then they get the same bout rank (and the next team has a bout rank that is two greater than theirs). Example:
-    - Team A: overall score `135.2`, bout rank `1`
-    - Team B: overall score `134.7`, bout rank `2`
-    - Team C: overall score `134.7`, bout rank `2`
-    - Team D: overall score `130.9`, bout rank `4`
+    - Team A: overall score of `135.2`, bout rank `1`
+    - Team B: overall score of `134.7`, bout rank `2`
+    - Team C: overall score of `134.7`, bout rank `2`
+    - Team D: overall score of `130.9`, bout rank `4`
 
 ### After all bouts
 
