@@ -67,4 +67,4 @@ Imagine we've been hired to build an app for a youth poetry festival. Each year,
 ### Domain Modeling
 
  - What information does the app need to keep track of? What are your tables? What are your columns?
- - What things need to be captured in the database, and what things will be handled when rendering the interface?
+ - What things _must_ be captured in the database, and what things can be handled when rendering the interface?
