@@ -36,8 +36,9 @@ Imagine we've been hired to build an app for a youth poetry festival. Each year,
 
 #### Scoring
 
- - Each poem is scored by five judges.
-    - Judges will assign a numerical score between 0.0 and 10.0.
+ - Each poem is scored by five judges, chosen from volunteers.
+    - Judges will write down a score between 0.0 and 10.0 on a whiteboard and hold it up at the end of the poem so that only the emcee can see.
+    - The emcee will read off the scores from low to high and a staff member will enter them into the system.
     - The lowest and highest scores will be dropped, and the other three scores will be summed to find the total score for the poem.
  - There are potential **deductions** that can be made by a staff member to a poem's score:
     - **Time**: If the poem goes over 3 minutes and 10 seconds, 0.5 points is deducted for every additional 10 seconds. For example,
