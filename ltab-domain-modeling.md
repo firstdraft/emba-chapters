@@ -1,29 +1,30 @@
 # LTAB Domain Modeling Exercise
 
-Imagine we've been hired to build an app for a youth poetry slam festival. Over a thousand poets from over a hundred schools will compete over a month of spoken-word bouts. The staff currently manage scorekeeping using paper and spreadsheets, but it would be nice if we could build an app that streamlines the process and makes it easier for the coaches from the schools to see what's going on in real-time.
+Imagine we've been hired to build an app for a youth poetry festival. Each year, over a thousand poets from over a hundred schools compete over a month of spoken-word poetry slams. The staff currently manage scorekeeping using paper and spreadsheets, but it would be nice if we could build an app that streamlines the process, eliminates errors, and makes it easier for the coaches from the schools to see what's going on in real-time.
 
 ## Stories
 
-### Team sign-up
-
- - A coach (first name, last name, email) signs up for an account and registers a school (name, address).
- - The coach adds all of their poets (first name, last name) to their team
-   for the year.
- - A poet can only be on one team per year.
-
 ### Tournament set-up
 
+ - A staff member adds all eligible schools.
+ - A staff member creates accounts for coaches and assigns them to schools.
+    - A coach can only be assigned to one school.
+    - A school can have multiple coaches.
  - A staff member creates a tournament, e.g. LTAB 2020.
  - A staff member sets up all of the levels for the tournament, e.g. Prelims, Quarterfinals, Semifinals, Finals.
- - For the first level, a staff member sets up enough bouts so that each school can compete in 2 bouts (with 4 schools in each bout). E.g. Bout 1, Bout 2, ..., Bout 70.
- - For each bout, a staff member assigns 4 schools.
+ - For the first level, a staff member sets up enough bouts so that each school can compete in 2 bouts (with 4 schools in each bout). For example, if there are 20 schools, then there should be 10 bouts. (Bout 01, Bout 02, ..., Bout 10.)
+ - For each bout in the first level, a staff member assigns 4 schools to compete against each other.
+
+### Poet registration
+
+ - Coaches register all of the poets (first name, last name) from their school that might perform in this tournament.
+    - It might be a different set of poets than in other tournaments (e.g. some poets from past years will have graduated).
 
 ### Day of the bout
 
 #### Before the performances
 
  - A staff member has the team captains draw from a hat and assigns a **draw order** to each team — A, B, C, or D.
- - A staff member records which poets will be performing from each school in this bout (a school might have different poets performing in different bouts).
  
 #### Structure of the bout
 
@@ -66,5 +67,4 @@ Imagine we've been hired to build an app for a youth poetry slam festival. Over 
 ### Domain Modeling
 
  - What information does the app need to keep track of? What are your tables? What are your columns?
- - What things need to be captured in the database, and what things will be
-   handled by the application/GUI client logic?
+ - What things need to be captured in the database, and what things will be handled by the application/GUI client logic?
